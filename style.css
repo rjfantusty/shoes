@@ -1,0 +1,148 @@
+
+*{
+    padding: 0%;
+    margin:0%;
+    box-sizing: border-box;
+    font-family:'Aladin-Regular';
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+#left{
+    width: 30%;
+    height: 100%;
+    position: relative;  
+    background-color: red; 
+}
+#right{
+    width: 70%;
+    height: 100%;
+    position: relative;   
+    background-color: white;
+}
+@font-face {
+    font-family: "Aladin-Regular";
+    src: url("./Aladin-Regular.ttf") format("truetype");
+  }
+#text {
+   padding: 30px;
+   color: white;
+}
+
+#text h1{
+    line-height: 0.8;   
+    font-size: 50px;
+    margin-bottom: 5px;
+    
+}
+#text span{   
+    font-weight: lighter;
+}
+
+#text p{
+    padding-top: 5px;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+#text button{
+    padding: 12px 30px;
+    border-radius: 3px;
+    border:0px;
+    font-size: medium;
+
+}
+
+#text2{
+    width: 90%;
+    background-color: wheat;
+    padding: 20px;
+    position: absolute;
+    bottom: 20px;
+}
+
+#text2 h3{
+    color:brown
+}
+
+
+#right #shoe{
+    width: 60%;
+    position: absolute;
+    top:28%;
+    left: -30%;
+    transform:rotate(-30deg);
+}
+
+#right{
+    align-items: center;
+}
+
+#text3{
+    width: 50%;
+    position:absolute;
+    top: 20%;
+    left: 35%;
+}
+#text3 h1{
+    line-height: 0.8;   
+    font-size: 50px;
+    margin-bottom: 5px;
+    
+}
+#text3 span{   
+    font-weight: lighter;
+    color:red;
+}
+#text3 span:hover{   
+    font-weight: lighter;
+    color:cornsilk;
+}
+
+#text3 p{
+    padding-top: 5px;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+#text3 button{
+    padding: 12px 30px;
+    border-radius: 3px;
+    border:2px solid red;
+    font-size: medium;
+    
+
+}
+#text3 #adcart{
+    padding: 12px 30px;
+    border-radius: 20px;
+    border:0px;
+    font-size: medium;
+    margin-left: 5px;
+    background-color: red;
+    color:white;
+
+}
+
+.samples{
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+}
+.sample{
+    width: 20%;
+}
+
+#text3 h4{
+    margin-top: 90px;
+}
